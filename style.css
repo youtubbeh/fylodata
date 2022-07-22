@@ -16,10 +16,15 @@ body {
     background-image: url(./images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.main {
+main {
     display: flex;
+    align-items: flex-end;
+    gap: 30px;
 }
 
 .left {
@@ -64,6 +69,69 @@ img[alt="upload icon"] {
 
 img[alt="folder icon"] {
     max-width: 22px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 8px;
+    width: 500px;
+    height: 130px;
+    padding: 35px;
+}
+
+
+
+
+
+
+
+
+.message {
+    color:hsl(243, 100%, 93%);
+    font-size: 14px;
+}
+
+.range {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-weight: 700;
+}
+
+.bar {
+    background-color: hsl(229, 57%, 11%);
+    width: 100%;
+    height: 20px;
+    border-radius: 2em;
+
+}
+
+.gradient {
+    width: 75%;
+    height: 15px;
+    border-radius: 2em;
+    margin: 2px;
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+}
+
+.ball {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 1px;
+}
+
+.zero, .thousand {
+    font-size: 12px;
+    color:hsl(243, 100%, 93%);
+    font-weight: 700;
 }
 
 
