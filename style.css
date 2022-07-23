@@ -207,17 +207,3 @@ span {
         visibility: hidden;
     }
 }
-
-
-.guide {
-    color: /*gradient*/ hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
-    color: hsl(243, 100%, 93%);
-    color: hsl(229, 7%, 55%);
-    color: hsl(228, 56%, 26%);
-    color: hsl(229, 57%, 11%);
-    font-size: 14px; /*body copy*/;
-    font-family: 'Raleway', sans-serif; /* 400 y 700*/
-    /* Referencia de burbuja 
-    https://codepen.io/run-time/pen/VNRBJd?editors=1100
-    */
-}
