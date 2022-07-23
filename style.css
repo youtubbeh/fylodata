@@ -16,6 +16,7 @@ body {
     background-image: url(./images/bg-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +25,9 @@ body {
 main {
     display: flex;
     align-items: flex-end;
-    gap: 30px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -34,7 +37,7 @@ main {
     gap: 35px;
     background-color: hsl(228, 56%, 26%);
     border-radius: 8px 5em 8px 8px;
-    width: 300px;
+    max-width: 300px;
     height: 190px;
     padding: 35px;
 }
@@ -183,8 +186,27 @@ span {
     color: white;
 }
 
+@media all and (max-width: 849px) {
+    body {
+        background-image: url(./images/bg-mobile.png);
+        background-size: cover;
+    }
 
+    .right {
+        width: auto;
+    }
 
+    .bubble {
+        border-radius: 1em;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .bubble-tail:before {
+        visibility: hidden;
+    }
+}
 
 
 .guide {
