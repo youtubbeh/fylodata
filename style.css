@@ -167,7 +167,6 @@ span {
     font-weight: 700;
 }
 
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -183,6 +182,10 @@ span {
     color: hsl(228, 45%, 44%);
     color: white;
 }
+
+
+
+
 
 .guide {
     color: /*gradient*/ hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
